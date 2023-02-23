@@ -1,0 +1,114 @@
+/* Estilos para el div contenedor */
+.container {
+    margin: 50px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 2px solid #333;
+    border-radius: 5px;
+    width: 600px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    filter: grayscale(50%);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los títulos */
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para los ejemplos */
+.ejemplo {
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+#border {
+    border: 2px dashed red;
+}
+
+#all_border {
+    border-left: 2px dotted blue; 
+    border-right: 4px solid green; 
+    border-top: 1px dashed gray; 
+    border-bottom: 3px double purple;
+}
+
+#border_radius {
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+#background_image {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/919/919826.png'); 
+    height: 500px;
+    width: 512px;
+}
+
+#color {
+    color: red;
+}
+
+#font{
+    font: italic bold 24px/1.5 'Times New Roman', serif;
+}
+
+#font_family {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#font_style_weight {
+    font-style: italic; font-weight: bold;
+}
+
+#width_height {
+    width: 200px; height: 100px; 
+    background-color: lightblue;
+}
+
+#list_style {
+    list-style: lower-greek;
+}
+
+#margin {
+    margin: 20px;
+}
+
+#padding {
+    padding: 20px;
+}
+
+#overflow {
+    width: 200px; 
+    height: 100px; 
+    overflow: scroll;
+}
+
+#display {
+    display: inline-block; 
+    width: 50px; 
+    height: 50px; 
+    background-color: pink;
+}
+
+#filter {
+    background-image: url('https://gumlet.assettype.com/afkgaming%2F2021-08%2F79649079-d0e7-4acd-853b-6a2b92797da3%2Fcopium_png.png?format=auto'); 
+    filter: grayscale(100%); 
+    width: 370px; 
+    height: 365px;
+}
