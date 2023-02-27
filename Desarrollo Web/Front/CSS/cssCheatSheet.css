@@ -1,9 +1,12 @@
-/* Estilos para el div contenedor */
+body{
+    background-color: #333;
+}
+
 .container {
     margin: 50px;
     padding: 20px;
-    background-color: #f7f7f7;
-    border: 2px solid #333;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f6453c);
+    border: 2px solid gray;
     border-radius: 5px;
     width: 600px;
     font-family: Arial, sans-serif;
@@ -15,10 +18,9 @@
     position: relative;
     overflow: hidden;
     filter: grayscale(50%);
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 5px solid;
 }
 
-/* Estilos para los títulos */
 h2 {
     font-size: 24px;
     font-weight: bold;
@@ -26,20 +28,19 @@ h2 {
     margin-bottom: 10px;
 }
 
-/* Estilos para los ejemplos */
 .ejemplo {
-    border: 1px solid #333;
+    border: 1px solid gray;
     border-radius: 5px;
     margin-bottom: 10px;
     padding: 10px;
     background-color: #fff;
-    color: #333;
+    color: gray;
     font-size: 14px;
     line-height: 1.2;
 }
 
 #border {
-    border: 2px dashed red;
+    border: 2px dashed aqua;
 }
 
 #all_border {
