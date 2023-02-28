@@ -74,7 +74,8 @@ h2 {
 }
 
 #font_style_weight {
-    font-style: italic; font-weight: bold;
+    font-style: italic; 
+    font-weight: bold;
 }
 
 #width_height {
