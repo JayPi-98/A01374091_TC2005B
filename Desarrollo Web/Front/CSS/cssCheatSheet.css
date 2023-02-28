@@ -40,14 +40,14 @@ h2 {
 }
 
 #border {
-    border: 2px dashed aqua;
+    border: 3px dashed aqua;
 }
 
 #all_border {
-    border-left: 2px dotted blue; 
-    border-right: 4px solid green; 
-    border-top: 1px dashed gray; 
-    border-bottom: 3px double purple;
+    border-left: 4px dotted green; 
+    border-right: 4px solid blue; 
+    border-top: 3px dashed rgb(5, 0, 0); 
+    border-bottom: 5px double rgb(213, 7, 254);
 }
 
 #border_radius {
@@ -79,7 +79,8 @@ h2 {
 }
 
 #width_height {
-    width: 200px; height: 100px; 
+    width: 200px; 
+    height: 100px; 
     background-color: lightblue;
 }
 
