@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+body,html {
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr) ;
+    grid-template-rows: repeat(10, 1fr);
+    height: 100vh;
+}
+
+.grid-item {
+    background-color: aliceblue;
+}
+
+#header {
+    background-color: rgb(3, 84, 85);
+    grid-column: 1/span 10;
+    color: white;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#course {
+    background-color: orange;
+    grid-column: 1/span 10;
+    grid-row: 2 /span 4;
+    text-align: center;
+    align-items: center;
+    color: white;
+    display: grid;
+}
+
+#subscribe {
+    background-color: rgb(3, 84, 85);
+    grid-column: 1 /span 10;
+    grid-row: 6/span 1;
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+#title {
+    grid-column: 2 /span 5;
+    grid-row: 1;
+    font-weight: bold;
+    
+}
+
+#links {
+    grid-column: 7 /span 5 ;
+    grid-row: 1;
+}
+
+#logos {
+    grid-column: 1 /span 10;
+    grid-row: 7 /span 3;
+    background-color: white;
+    display: grid;
+    align-items: center;
+}
+
+#copy_right {
+    grid-column: 1 /span 10;
+    background-color: rgb(3, 84, 85);
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    max-width: 80px;
+    
+}
+
+img:nth-child(2){
+    max-width: 90px;
+}
+
+.html {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}

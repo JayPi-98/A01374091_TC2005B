@@ -150,7 +150,7 @@ body, html {
 }
 
 .grid-item4:nth-child(1){
-    background-color: yellow;
+    background-color: rgb(255, 128, 0);
     grid-column: 1/span 6;
     grid-row: 1 /span 2;
 }
@@ -161,19 +161,20 @@ body, html {
 }
 
 .grid-item4:nth-child(3) {
-    background-color: green;
+    background-color: rgb(9, 59, 9);
     grid-column: 1 /span 5;
     grid-row: 3 /span 5;
 }
 
 .grid-item4:nth-child(4) {
-    background-color: orangered;
+    background-color: rgb(90, 28, 6);
     grid-column: 6 /span 12;
     grid-row: 3 /span 5;
 }
 .grid-item4:nth-child(5) {
     grid-column: 1 /span 12;
     grid-row: 8 /span 12;
+    background-color: rgb(5, 5, 141);
 }
 
 .grid-container5 {

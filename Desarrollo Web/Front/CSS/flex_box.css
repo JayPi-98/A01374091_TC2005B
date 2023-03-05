@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+/*html, body {
+    margin: 0;
+    padding: 0;
+}*/
+
+div {
+    border: 2px solid black;
+}
+
+.flex_item{
+    margin: 5%;
+    padding: 2px;
+    flex-shrink: 1;
+    flex-grow: 3;
+}
+
+.flex_container {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
