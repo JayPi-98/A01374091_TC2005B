@@ -101,6 +101,10 @@ p {
     font-weight: 100;
 }
 
+.logo-txt{
+    font-size: small;
+}
+
 #btn {
     background-color: orange;
     color: white;
