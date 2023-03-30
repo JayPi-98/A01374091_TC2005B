@@ -54,17 +54,29 @@
     <p>Usa ChatGPT y copilot para resolver los ejercicios. Por cada ejercicio, pídele a ChatGPT o a copilot que te genere los comentarios. Verifica los resultados antes de subirlos a tu repo.</p>
 
     <div class="container">
+        <!--ChatGPT--> 
         <p>1. Modifica el siguiente elemento para mostrar la posición del mouse en el documento:</p>
         <div id="mousePositionDiv"></div>
         <p id="mousePosition">Posición del mouse: </p>
+        <!--CoPilot-->
+        <p>1. Modifica el siguiente elemento para mostrar la posición del mouse en el documento:</p>
+        <div id="mousePositionDiv"></div>
+        <p id="mousePositionPilot">Posición del mouse: </p>
     </div>
 
     <div class="container">
+       <!--ChatGPT-->
         <p>2. Al dar click al siguiente botón, obtén el nombre y apellido de las siguientes cajas de texto, y agrega, después del botón, un elemento que tenga el nombre completo.</p>
-        <form id="form1">
-            First name: <input id="form-fname" type="text" name="fname" ><br>
-            Last name: <input id="form-lname" type="text" name="lname" ><br><br>
-        <input id="form1-submit" type="submit" value="Submit">
+        <form id="formChatGPT">
+            First name: <input id="formChat-fname" type="text" name="fname" ><br>
+            Last name: <input id="formChat-lname" type="text" name="lname" ><br><br>
+        <input id="formChatGPT-submit" type="submit" value="Submit">
+        </form>
+        <!--CoPilot-->
+        <form id="formCopilot">
+            First name: <input id="formPilot-fname" type="text" name="fname" ><br>
+            Last name: <input id="formPilot-lname" type="text" name="lname" ><br><br>
+        <input id="formCopilot-submit" type="submit" value="Submit">
         </form>
     </div>
 
@@ -82,6 +94,20 @@
         </table><br>
         <input id="btn-insert-r" type="button" value="Insert row">
         <input id="btn-insert-c" type="button" value="Insert column">
+        <br>
+        <br>
+        <table id="sampleTable2">
+            <tr>
+                <td>Row 1 column 1</td>
+                <td>Row 1 column 2</td>
+            </tr>
+            <tr>
+                <td>Row 2 column 1</td>
+                <td>Row 2 column 2</td>
+            </tr>
+        </table><br>
+        <input id="btn2-insert-r" type="button" value="Insert row">
+        <input id="btn2-insert-c" type="button" value="Insert column">
     </div>
 
     <div class="container">

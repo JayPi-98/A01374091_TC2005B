@@ -1,21 +1,39 @@
 // Ejercicio 1
-document.addEventListener("mousemove", function(event) {
-    let x = event.clientX;
-    let y = event.clientY;
-    document.getElementById("mousePositionDiv").innerHTML = "X: " + x + " Y: " + y;
+// CodigoChatGPT
+document.addEventListener("mousemove", function(event) {// Agregar un evento de tipo mousemove al documento
+   let x = event.clientX;// Obtener la posición X del mouse
+    let y = event.clientY;// Obtener la posición Y del mouse
+    document.getElementById("mousePositionDiv").innerHTML = "X: " + x + " Y: " + y;// Mostrar la posición del mouse en el div
+  });
+// CodigoCoPiloto
+//Mostrar la posición del mouse en el documento con el id mousePositionPilot:
+document.addEventListener("mousemove", function(event) {// Agregar un evento de tipo mousemove al documento
+    let x = event.clientX;// Obtener la posición X del mouse
+    let y = event.clientY;// Obtener la posición Y del mouse
+    document.getElementById("mousePositionPilot").innerHTML = "X: " + x + " Y: " + y;// Mostrar la posición del mouse en el div
   });
 // Ejercicio 2
-document.getElementById("form1-submit").addEventListener("click", function(event) {
-    event.preventDefault(); // Prevenir el envío del formulario
-    let firstName = document.getElementById("form-fname").value;
-    let lastName = document.getElementById("form-lname").value;
-    let fullName = firstName + " " + lastName;
-    let fullNameElement = document.createElement("p");
-    fullNameElement.innerHTML = "Nombre completo: " + fullName;
-    document.getElementById("form1").appendChild(fullNameElement);
-  });
-
+document.getElementById("formChatGPT-submit").addEventListener("click", function(event) {
+     event.preventDefault();  //Prevenir el envío del formulario
+     let firstName = document.getElementById("formChat-fname").value;
+     let lastName = document.getElementById("formChat-lname").value;
+     let fullName = firstName + " " + lastName;
+     let fullNameElement = document.createElement("p");
+     fullNameElement.innerHTML = "Nombre completo: " + fullName;
+     document.getElementById("formChatGPT").appendChild(fullNameElement);
+   });
+// CodigoCoPiloto
+document.getElementById("formChatPilot-submit").addEventListener("click", function(event) {
+      event.preventDefault();  //Prevenir el envío del formulario
+      let firstName = document.getElementById("formPilot-fname").value;
+      let lastName = document.getElementById("formPilot-lname").value;
+      let fullName = firstName + " " + lastName;
+      let fullNameElement = document.createElement("p");
+      fullNameElement.innerHTML = "Nombre completo: " + fullName;
+      document.getElementById("formChatPilot").appendChild(fullNameElement);
+    });
 // Ejercicio 3
+// CodigoChatGPT
   let addTable = document.getElementById("sampleTable");
 
   document.getElementById("btn-insert-r").addEventListener("click", function() {
@@ -33,6 +51,9 @@ document.getElementById("form1-submit").addEventListener("click", function(event
       newCell.innerHTML = "New column";
     }
   });
+// CodigoCoPiloto
+let addTable2 = document.getElementById("sampleTable2");// Obtener la tabla con el id sampleTable2
+
 
 // Ejercicio 4
 let inTable = document.getElementById("myTable");
@@ -53,8 +74,9 @@ document.getElementById("btn-change").addEventListener("click", function() {
 const colorSelect = document.getElementById("colorSelect");
 
 // Función para agregar un color a la lista de opciones
-document.getElementById("btn-add-color").addEventListener("click", function() {
-  let newColor = document.createElement("option");
+// El color se genera aleatoriamente
+document.getElementById("btn-add-color").addEventListener("click", function() {// Agregar un color a la lista de opciones
+  let newColor = document.createElement("option");// Crea un elemento de tipo option
   newColor.text = getRandomColor(); // Genera un color aleatorio
   colorSelect.add(newColor);
 });
@@ -66,7 +88,7 @@ document.getElementById("btn-rmv-color").addEventListener("click", function() {
     colorSelect.remove(selectedIndex);
   }
 });
-
+// helper function
 // Función para generar un color aleatorio
 function getRandomColor() {
   let letters = "0123456789ABCDEF";
@@ -86,3 +108,6 @@ let imagen = document.getElementById("imagenGato");
         let newHeight = Math.floor(Math.random() * (600 - 300 + 1)) + 300;
         imagen.src = "http://placekitten.com/" + newWidth + "/" + newHeight;
     });
+    
+// CodigoCoPiloto
+let imagen2 = document.getElementById("imagenGato2");// Obtener la imagen con el id imagenGato2
