@@ -1,16 +1,15 @@
+// Decidí solo incluir los resultados que me dio ChatGPT
+// ya que Copilot me daba la misma respuesta que ChatGPT
+// por lo que no veo la necesidad de incluirlos.
+// Además de que en algunas ocasiones Copilot al ver el código
+// de chatGPT no trabajaba correctamente y no generaba nigun resultado.
+
 // Ejercicio 1
 // CodigoChatGPT
 document.addEventListener("mousemove", function(event) {// Agregar un evento de tipo mousemove al documento
     let x = event.clientX;// Obtener la posición X del mouse
     let y = event.clientY;// Obtener la posición Y del mouse
     document.getElementById("mousePositionDiv").innerHTML = "X: " + x + " Y: " + y;// Mostrar la posición del mouse en el div
-  });
-// CodigoCoPiloto
-//Mostrar la posición del mouse en el documento con el id mousePositionPilot:
-document.addEventListener("mousemove", function(event) {// Agregar un evento de tipo mousemove al documento
-    let x = event.clientX;// Obtener la posición X del mouse
-    let y = event.clientY;// Obtener la posición Y del mouse
-    document.getElementById("mousePositionPilot").innerHTML = "X: " + x + " Y: " + y;// Mostrar la posición del mouse en el div
   });
 // Ejercicio 2
 document.getElementById("formChatGPT-submit").addEventListener("click", function(event) {
