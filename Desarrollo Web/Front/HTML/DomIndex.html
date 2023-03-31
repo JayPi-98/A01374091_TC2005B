@@ -29,6 +29,11 @@
                     <li>
                         <strong>Respuesta ChatGPT:</strong> En el contexto del Document Object Model (DOM), un nodo es un objeto que representa un elemento, atributo o texto en el árbol jerárquico que representa un documento HTML o XML.
                     </li>
+                    <li>
+                        <strong>Respuesta Fuente:</strong> Segun la documentacion de Mozilla, es una interfaz de programación para 
+                        los documentos HTML y XML. Facilita una representación estructurada del documento y define de qué manera los 
+                        programas pueden acceder, al fin de modificar, tanto su estructura, estilo y contenido.
+                    </li>
                 </ul>
                 <li> ¿Qué es un nodo?</li>
                 <ul>
@@ -37,6 +42,10 @@
                     </li>
                     <li>
                         <strong>Respuesta ChatGPT:</strong> En el contexto del Document Object Model (DOM), un nodo es un objeto que representa un elemento, atributo o texto en el árbol jerárquico que representa un documento HTML o XML.
+                    </li>
+                    <li>
+                        <strong>Respuesta Fuente:</strong>Segun Mozilla en el contexto del DOM, un nodo es un único punto en el arbol de nodos. 
+                        Los nodos pueden ser varias cosas el documento mismo, elementos, texto y comentarios.
                     </li>
                 </ul>
                 <li> ¿Cómo se accede a un elemento del DOM?</li>
@@ -52,6 +61,11 @@
                         <strong>Respuesta ChatGPT:</strong> Para acceder a un elemento del DOM, 
                         se puede utilizar JavaScript u otro lenguaje de programación que sea compatible con el DOM.
                     </li>
+                    <li>
+                        <strong>Respuesta Fuente:</strong> Según Khan Academy los métodos getElementsByClassName y getElementsByTagName regresan un objeto 
+                        HTMLCollection que actúa como un arreglo. Esa colección está "viva", lo que significa que la colección se actualiza 
+                        si al documento se le agregan elementos adicionales con nombre de etiqueta o nombre de clase.
+                    </li>
                 </ul>
                 <li> ¿Cómo se modifica un elemento del DOM?</li>
                 <ul>
@@ -63,6 +77,11 @@
                         <strong>Respuesta ChatGPT:</strong> Para modificar un elemento del DOM, 
                         primero se debe seleccionar el nodo que representa ese elemento utilizando 
                         JavaScript u otro lenguaje de programación que sea compatible con el DOM.
+                    </li>
+                    <li>
+                        <strong>Respuesta Fuente:</strong> La forma más sencilla de modificar el contenido de un elemento HTML es usando el innerHTML propiedad.
+                        Para cambiar el contenido de un elemento HTML, utilice la siguiente sintaxis:
+                        <code>document.getElementById(id).innerHTML = new HTML</code>
                     </li>
                 </ul>
                 <li> ¿Cuál es la diferencia entre getElementby* y querySelector*?</li>
@@ -77,6 +96,12 @@
                         getElementby* devuelve un solo elemento que coincide con el selector proporcionado, 
                         mientras que querySelector* devuelve una lista de elementos que coinciden con el selector.
                     </li>
+                    <li>
+                        <strong>Respuesta Fuente:</strong> Según la pagina Codea la differencia es que con una
+                        instrucción querySelector, puede seleccionar un elemento basado en un selector de CSS. 
+                        Esto significa que puede seleccionar elementos por ID, clase o cualquier otro tipo de selector. 
+                        Con el método getElementById, solo puede seleccionar un elemento por su ID.
+                    </li>
                 </ul>
                 <li> ¿Qué es un evento?</li>
                 <ul>
@@ -89,6 +114,11 @@
                         <strong>Respuesta ChatGPT:</strong> Un evento es una acción o suceso que ocurre en un documento web, 
                         como hacer clic en un botón, mover el cursor del ratón, presionar una tecla, cargar una página, etc.
                     </li>
+                    <li>
+                        <strong>Respuesta Fuente:</strong> Los eventos se envían para notificar al código de cosas interesantes 
+                        que han ocurrido. Cada evento está representado por un objeto que se basa en la interfaz Event, y puede 
+                        tener campos y/o funciones personalizadas adicionales para obtener más información acerca de lo sucedido.
+                    </li>
                 </ul>
                 <li> ¿Qué es un listener?</li>
                 <ul>
@@ -100,6 +130,10 @@
                         <strong>Respuesta ChatGPT:</strong> Un listener, también conocido como "escuchador de eventos" o 
                         "manejador de eventos", es una función que se encarga de manejar los eventos en un documento web.
                     </li>
+                    <li>
+                        <strong>Respuesta Fuente:</strong> Según Mozilla; registra un evento a un objeto en específico. El Objeto especifico 
+                        puede ser un simple elemento en un archivo, el mismo documento , una ventana o un XMLHttpRequest.
+                    </li>
                 </ul>
                 <li> ¿Qué es un callback?</li>
                 <ul>
@@ -110,6 +144,10 @@
                     <li>
                         <strong>Respuesta ChatGPT:</strong> Un callback es una función que se pasa como argumento a otra 
                         función y que se invoca dentro de esa función para realizar alguna tarea o acción en particular.
+                    </li>
+                    <li>
+                        <strong>Respuesta Fuente:</strong> Una función de callback es una función que se pasa a otra función 
+                        como un argumento, que luego se invoca dentro de la función externa para completar algún tipo de rutina o acción.
                     </li>
                 </ul>
                 <li> ¿Qué es un objeto de evento?</li>
@@ -123,10 +161,19 @@
                         <strong>Respuesta ChatGPT:</strong> Un objeto de evento es un objeto que contiene 
                         información sobre un evento que ha ocurrido en el navegador.
                     </li>
+                    <li>
+                        <strong>Respuesta Fuente:</strong> Los gestores de eventos pueden estar atados a varios elementos en el DOM. 
+                        Cuando un evento ocurre, un objeto de evento es dinámicamente creado y pasado secuencialmente a las "escuchas" 
+                        (listeners) autorizadas para la gestión del evento
+                    </li>
                 </ul>
-    </ol>       
+    </ol> 
+    <h3>Links de fuentes</h3>
+    <a href="https://developer.mozilla.org/es/">Mozilla</a>
+    <a href="https://www.w3bai.com">w3bai</a>
+    <a href="https://codea.app">codea.app</a>
+      
     </div>
-
     <h3>Ejercicios de código</h3>
     <p>Usa ChatGPT y copilot para resolver los ejercicios. Por cada ejercicio, pídele a ChatGPT o a copilot que te genere los comentarios. Verifica los resultados antes de subirlos a tu repo.</p>
 
@@ -215,6 +262,7 @@
         <h2>Conclusiones</h2>
 
         <h4>Experiencia general</h4>
+        <p>Mi experiencia en general fue buena con ambos IA ya que ayudan a reducir el trabajo redundante  </p>
         <h4>¿Cuándo y para qué usarías ChatGPT y cuándo Copilot?</h4>
         <h4>Ventajas de usar AI para programar</h4>
         <h4>Desventajas de usar AI para programar</h4>
